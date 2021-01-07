@@ -40,11 +40,7 @@ echo "serviceWorker.*\n*.d.ts\ndist" >.eslintignore
 echo "module.exports = { extends: ['./node_modules/poetic/config/eslint/eslint-config.js'] };" >.eslintrc.js
 echo "module.exports = {...require('poetic')};" >.prettierrc.js
 
-# 5. 配置commitizen
-npm i commitizen cz-conventional-changelog -D
-echo '{ "path": "./node_modules/cz-conventional-changelog" }' >.czrc
-
-# 6. 配置editorconfig
+# 5. 配置editorconfig
 echo "# Editor configuration, see http://editorconfig.org
 root = true\n
 [*.{js, ts}]
@@ -54,6 +50,10 @@ indent_size = 2
 insert_final_newline = true
 end_of_line = lf
 trim_trailing_whitespace = true" >.editorconfig
+
+# 6. 配置commitizen
+npm i commitizen cz-conventional-changelog -D
+echo '{ "path": "./node_modules/cz-conventional-changelog" }' >.czrc
 
 # 7. 配置ts
 npm i typescript -D
