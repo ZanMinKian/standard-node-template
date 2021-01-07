@@ -32,7 +32,7 @@ echo "module.exports = {
     './node_modules/.bin/prettier -w',
     // 'git add', // lint-staged从v10开始不再需要添加git add命令
   ],
-};" >.linstagedrc.js
+};" >.lintstagedrc.js
 
 # 4. 配置poetic(里面包含了eslint和prettier)
 npm i poetic -D
