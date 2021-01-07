@@ -350,7 +350,7 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
-" >.gitingore
+" >.gitignore
 
 # 9. 安装`pm2`
 npm i pm2 -D
