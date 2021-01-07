@@ -86,7 +86,7 @@ echo '{
 }
 ' >tsconfig.json
 
-# 8. 项目根目录添加`.gitingore`
+# 8. 配置gitingore
 echo "# Created by .ignore support plugin (hsz.mobi)
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -351,7 +351,6 @@ tags
 # Persistent undo
 [._]*.un~
 " >.gitingore
-echo "config gitingore success"
 
 # 9. 安装`pm2`
 npm i pm2 -D
