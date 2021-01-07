@@ -38,7 +38,7 @@ echo "module.exports = {
 npm i poetic -D
 echo "serviceWorker.*\n*.d.ts\ndist" >.eslintignore
 echo "module.exports = { extends: ['./node_modules/poetic/config/eslint/eslint-config.js'] };" >.eslintrc.js
-echo "module.exports = {...require('poetic')};" >.prettierrc.js
+echo "module.exports = { ...require('poetic').prettierConfig };" >.prettierrc.js
 
 # 5. 配置editorconfig
 echo "# Editor configuration, see http://editorconfig.org
