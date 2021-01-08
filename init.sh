@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# 当一个命令返回一个非零退出状态时退出
+set -e
+
 # 0. 初始化文件夹, npm和git
 targetPath="$1"
 if [ -e $targetPath ]; then
