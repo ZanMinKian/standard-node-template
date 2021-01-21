@@ -88,6 +88,7 @@ echo '{
   }
 }
 ' >tsconfig.json
+npm i @types/node -D
 
 # 8. 配置gitingore
 echo "# Created by .ignore support plugin (hsz.mobi)
