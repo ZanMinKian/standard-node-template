@@ -1,1 +1,1 @@
-module.exports = { ...require('poetic').prettierConfig };
+module.exports = require('poetic').prettierConfig;
